@@ -3,18 +3,34 @@
 //  Base32
 //
 //  Created by Dave Poirier on 12-06-14.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Public Domain
 //
 
 #import "MF_AppDelegate.h"
+#import "MF_Base32Additions.h"
 
 @implementation MF_AppDelegate
 
 @synthesize window = _window;
+@synthesize textField = _textField;
 
-- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+//- (void)applicationDidFinishLaunching:(NSNotification *)aNotification
+//{
+//}
+
+-(void)encode:(id)sender
 {
-    // Insert code here to initialize your application
+    NSString *raw = [_textField stringValue];
+    NSString *encoded = [raw stringByEncodingBase32];
+    [_textField setStringValue:encoded];
+}
+
+-(void)decode:(id)sender
+{
+    NSString *encoded = [_textField stringValue];
+    NSData *data = [NSData dataWithBase32Encoding:encoded];
+    NSString *raw = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+    [_textField setStringValue:raw];
 }
 
 @end

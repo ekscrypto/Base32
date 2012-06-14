@@ -3,7 +3,7 @@
 //  Base32
 //
 //  Created by Dave Poirier on 12-06-14.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Freshcode. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>

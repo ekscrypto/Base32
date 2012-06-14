@@ -13,6 +13,8 @@
 		0DDF90F7158A1A0F00D44611 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90F5158A1A0F00D44611 /* Credits.rtf */; };
 		0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */; };
 		0DDF90FD158A1A1000D44611 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90FB158A1A1000D44611 /* MainMenu.xib */; };
+		0DDF9107158A1A5800D44611 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDF9106158A1A5800D44611 /* Security.framework */; };
+		0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +23,17 @@
 		0DDF90E9158A1A0F00D44611 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0DDF90EA158A1A0F00D44611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		0DDF90EB158A1A0F00D44611 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0DDF90EE158A1A0F00D44611 /* Base32-Info.plist */ = {isa = PBXFileReference; path = "Base32-Info.plist"; sourceTree = "<group>"; };
+		0DDF90EE158A1A0F00D44611 /* Base32-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Base32-Info.plist"; sourceTree = "<group>"; };
 		0DDF90F0158A1A0F00D44611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0DDF90F2158A1A0F00D44611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0DDF90F4158A1A0F00D44611 /* Base32-Prefix.pch */ = {isa = PBXFileReference; path = "Base32-Prefix.pch"; sourceTree = "<group>"; };
+		0DDF90F4158A1A0F00D44611 /* Base32-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Base32-Prefix.pch"; sourceTree = "<group>"; };
 		0DDF90F6158A1A0F00D44611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		0DDF90F8158A1A0F00D44611 /* MF_AppDelegate.h */ = {isa = PBXFileReference; path = MF_AppDelegate.h; sourceTree = "<group>"; };
+		0DDF90F8158A1A0F00D44611 /* MF_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MF_AppDelegate.h; sourceTree = "<group>"; };
 		0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MF_AppDelegate.m; sourceTree = "<group>"; };
 		0DDF90FC158A1A1000D44611 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0DDF9106158A1A5800D44611 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base32Additions.h; sourceTree = "<group>"; };
+		0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base32Additions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DDF9107158A1A5800D44611 /* Security.framework in Frameworks */,
 				0DDF90E7158A1A0F00D44611 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +52,7 @@
 		0DDF90D7158A1A0F00D44611 = {
 			isa = PBXGroup;
 			children = (
+				0DDF9106158A1A5800D44611 /* Security.framework */,
 				0DDF90EC158A1A0F00D44611 /* Base32 */,
 				0DDF90E5158A1A0F00D44611 /* Frameworks */,
 				0DDF90E3158A1A0F00D44611 /* Products */,
@@ -85,6 +92,8 @@
 				0DDF90F8158A1A0F00D44611 /* MF_AppDelegate.h */,
 				0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */,
 				0DDF90FB158A1A1000D44611 /* MainMenu.xib */,
+				0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */,
+				0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */,
 				0DDF90ED158A1A0F00D44611 /* Supporting Files */,
 			);
 			path = Base32;
@@ -130,6 +139,7 @@
 			attributes = {
 				CLASSPREFIX = MF_;
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Freshcode;
 			};
 			buildConfigurationList = 0DDF90DC158A1A0F00D44611 /* Build configuration list for PBXProject "Base32" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -168,6 +178,7 @@
 			files = (
 				0DDF90F3158A1A0F00D44611 /* main.m in Sources */,
 				0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */,
+				0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
