@@ -1,4 +1,5 @@
-===Usage===
+Usage
+=====
 
 Open the XCode project file, and drag MF_Base32Additions.m/.h into your project.
 
@@ -10,15 +11,21 @@ NSString *helloWorld = @"Hello World";
 NSString *helloInBase32 = [helloWorld stringByEncodingBase32];
 NSString *helloDecoded = [helloInBase32 stringByDecodingBase32];
 
-===Performance=== 
+Performance
+===========
+ 
   Encoding: Approximately 4 to 5 times faster than using the equivalent SecTransform.
   Decoding: Slightly faster but almost identical decoding time as equivalent SecTransform.
 
-===Requirements===
+Requirements
+============
 Compile with Automatic Reference Counting
 Compatible with Mac OSX 10.6+ and iOS 4.0+
 
-===Implementation===
+Implementation
+==============
 Implemented as per RFC 4648, see http://www.ietf.org/rfc/rfc4648.txt for more details.
 
-
+Licensing
+=========
+Public Domain
