@@ -21,14 +21,14 @@
 -(void)encode:(id)sender
 {
     NSString *raw = [_textField stringValue];
-    NSString *encoded = [raw stringByEncodingBase32];
+    NSString *encoded = [raw base32String];
     [_textField setStringValue:encoded];
 }
 
 -(void)decode:(id)sender
 {
     NSString *encoded = [_textField stringValue];
-    NSData *data = [NSData dataWithBase32Encoding:encoded];
+    NSData *data = [NSData dataWithBase32String:encoded];
     NSString *raw = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     [_textField setStringValue:raw];
 }

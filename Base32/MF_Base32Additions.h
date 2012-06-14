@@ -14,16 +14,16 @@
 #define NSBase32StringEncoding  0x4D467E32
 
 @interface NSString (Base32Addition)
--(NSString *)stringByEncodingBase32;
--(NSString *)stringByDecodingBase32;
++(NSString *)stringFromBase32String:(NSString *)base32String;
+-(NSString *)base32String;
 @end
 
 @interface NSData (Base32Addition)
-+(NSData *)dataWithBase32Encoding:(NSString *)base32encoding;
--(NSString *)base32Encoding;
++(NSData *)dataWithBase32String:(NSString *)base32String;
+-(NSString *)base32String;
 @end
 
 @interface MF_Base32Codec
-+(NSData *)dataFromBase32Encoding:(NSString *)encoding;
-+(NSString *)base32EncodingFromData:(NSData *)data;
++(NSData *)dataFromBase32String:(NSString *)base32String;
++(NSString *)base32StringFromData:(NSData *)data;
 @end

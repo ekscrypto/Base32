@@ -12,7 +12,7 @@
 #import "MF_Base32Additions.h"
 
 @implementation MF_Base32Codec
-+(NSData *)dataFromBase32Encoding:(NSString *)encoding
++(NSData *)dataFromBase32String:(NSString *)encoding
 {
     NSData *data = nil;
     unsigned char *decodedBytes = NULL;
@@ -127,7 +127,7 @@
     }
     return data;
 }
-+(NSString *)base32EncodingFromData:(NSData *)data
++(NSString *)base32StringFromData:(NSData *)data
 {
     NSString *encoding = nil;
     unsigned char *encodingBytes = NULL;
@@ -225,25 +225,25 @@
 @end
 
 @implementation NSString (Base32Addition)
--(NSString *)stringByEncodingBase32
+-(NSString *)base32String
 {
     NSData *utf8encoding = [self dataUsingEncoding:NSUTF8StringEncoding];
-    return [MF_Base32Codec base32EncodingFromData:utf8encoding];
+    return [MF_Base32Codec base32StringFromData:utf8encoding];
 }
--(NSString *)stringByDecodingBase32
++(NSString *)stringFromBase32String:(NSString *)base32String
 {
-    NSData *utf8encoding = [MF_Base32Codec dataFromBase32Encoding:self];
+    NSData *utf8encoding = [MF_Base32Codec dataFromBase32String:base32String];
     return [[NSString alloc] initWithData:utf8encoding encoding:NSUTF8StringEncoding];
 }
 @end
 
 @implementation NSData (Base32Addition)
-+(NSData *)dataWithBase32Encoding:(NSString *)base32encoding
++(NSData *)dataWithBase32String:(NSString *)base32String
 {
-    return [MF_Base32Codec dataFromBase32Encoding:base32encoding];
+    return [MF_Base32Codec dataFromBase32String:base32String];
 }
--(NSString *)base32Encoding
+-(NSString *)base32String
 {
-    return [MF_Base32Codec base32EncodingFromData:self];
+    return [MF_Base32Codec base32StringFromData:self];
 }
 @end
