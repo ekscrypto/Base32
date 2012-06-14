@@ -12,8 +12,8 @@ Example use:
     #import "MF_Base32Additions.h"
     
     NSString *helloWorld = @"Hello World";
-    NSString *helloInBase32 = [helloWorld stringByEncodingBase32];
-    NSString *helloDecoded = [helloInBase32 stringByDecodingBase32];
+    NSString *helloInBase32 = [helloWorld base32String];
+    NSString *helloDecoded = [NSString stringFromBase32String:helloInBase32];
 
 
 
