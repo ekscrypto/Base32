@@ -13,7 +13,6 @@
 		0DDF90F7158A1A0F00D44611 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90F5158A1A0F00D44611 /* Credits.rtf */; };
 		0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */; };
 		0DDF90FD158A1A1000D44611 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90FB158A1A1000D44611 /* MainMenu.xib */; };
-		0DDF9107158A1A5800D44611 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DDF9106158A1A5800D44611 /* Security.framework */; };
 		0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		0DDF90F8158A1A0F00D44611 /* MF_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MF_AppDelegate.h; sourceTree = "<group>"; };
 		0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MF_AppDelegate.m; sourceTree = "<group>"; };
 		0DDF90FC158A1A1000D44611 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		0DDF9106158A1A5800D44611 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base32Additions.h; sourceTree = "<group>"; };
 		0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base32Additions.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DDF9107158A1A5800D44611 /* Security.framework in Frameworks */,
 				0DDF90E7158A1A0F00D44611 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +49,6 @@
 		0DDF90D7158A1A0F00D44611 = {
 			isa = PBXGroup;
 			children = (
-				0DDF9106158A1A5800D44611 /* Security.framework */,
 				0DDF90EC158A1A0F00D44611 /* Base32 */,
 				0DDF90E5158A1A0F00D44611 /* Frameworks */,
 				0DDF90E3158A1A0F00D44611 /* Products */,
@@ -300,6 +296,7 @@
 				0DDF9102158A1A1000D44611 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
