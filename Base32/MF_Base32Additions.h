@@ -23,7 +23,7 @@
 -(NSString *)base32String;
 @end
 
-@interface MF_Base32Codec
+@interface MF_Base32Codec : NSObject
 +(NSData *)dataFromBase32String:(NSString *)base32String;
 +(NSString *)base32StringFromData:(NSData *)data;
 @end

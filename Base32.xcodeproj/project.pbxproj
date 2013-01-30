@@ -134,7 +134,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MF_;
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = Freshcode;
 			};
 			buildConfigurationList = 0DDF90DC158A1A0F00D44611 /* Build configuration list for PBXProject "Base32" */;
@@ -258,6 +258,7 @@
 		0DDF9101158A1A1000D44611 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
@@ -269,6 +270,7 @@
 		0DDF9102158A1A1000D44611 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
