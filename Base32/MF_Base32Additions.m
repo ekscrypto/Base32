@@ -36,8 +36,8 @@
             __,__,__,__, __,__,__,__, __,__,__,__, __,__,__,__,  // 0xE0 - 0xEF
             __,__,__,__, __,__,__,__, __,__,__,__, __,__,__,__,  // 0xF0 - 0xFF
         };
-        static NSUInteger paddingAdjustment[8] = {0,1,2,2,3,4,4,5};
-
+        static NSUInteger paddingAdjustment[8] = {0,1,1,1,2,3,3,4};
+        encoding = [encoding stringByReplacingOccurrencesOfString:@"=" withString:@""];
         NSData *encodedData = [encoding dataUsingEncoding:NSASCIIStringEncoding];
         unsigned char *encodedBytes = (unsigned char *)[encodedData bytes];
 
