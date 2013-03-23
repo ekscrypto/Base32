@@ -1,5 +1,5 @@
 Base32 Additions for Objective-C on Mac OS X and iOS
-=======
+====
 
 
 Usage
@@ -9,6 +9,7 @@ Open the XCode project file, and drag MF_Base32Additions.m/.h into your project.
 In files where you want to use Base32 encoding/decoding, simply include the header file and use one of the provided NSData or NSString additions.
     
 Example use:
+
     #import "MF_Base32Additions.h"
     
     NSString *helloWorld = @"Hello World";
