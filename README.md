@@ -1,5 +1,5 @@
 Base32 Additions for Objective-C on Mac OS X and iOS
-=======
+====
 
 
 Usage
