@@ -51,7 +51,6 @@
 		C996EC661A74F2190076B105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C996EC671A74F2190076B105 /* Base32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base32.h; sourceTree = "<group>"; };
 		C996EC6D1A74F2190076B105 /* Base32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C996EC731A74F2190076B105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C996EC741A74F2190076B105 /* Base32Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base32Tests.m; sourceTree = "<group>"; };
 		C996EC821A74FA390076B105 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Configurations/Debug.xcconfig; sourceTree = "<group>"; };
 		C996EC831A74FA390076B105 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Profile.xcconfig; path = Configurations/Profile.xcconfig; sourceTree = "<group>"; };
@@ -180,17 +179,8 @@
 			isa = PBXGroup;
 			children = (
 				C996EC741A74F2190076B105 /* Base32Tests.m */,
-				C996EC721A74F2190076B105 /* Supporting Files */,
 			);
 			path = Base32Tests;
-			sourceTree = "<group>";
-		};
-		C996EC721A74F2190076B105 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C996EC731A74F2190076B105 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C996EC7E1A74FA390076B105 /* xcconfigs */ = {
@@ -512,7 +502,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = Base32Tests/Info.plist;
 				PRODUCT_NAME = Base32Tests;
 			};
 			name = Debug;
@@ -521,7 +510,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = Base32Tests/Info.plist;
 				PRODUCT_NAME = Base32Tests;
 			};
 			name = Release;
