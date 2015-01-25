@@ -32,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DDF90E2158A1A0F00D44611 /* Base32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base32.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDF90E2158A1A0F00D44611 /* Base32Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base32Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDF90E6158A1A0F00D44611 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0DDF90E9158A1A0F00D44611 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0DDF90EA158A1A0F00D44611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -53,6 +53,17 @@
 		C996EC6D1A74F2190076B105 /* Base32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996EC731A74F2190076B105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C996EC741A74F2190076B105 /* Base32Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base32Tests.m; sourceTree = "<group>"; };
+		C996EC821A74FA390076B105 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Configurations/Debug.xcconfig; sourceTree = "<group>"; };
+		C996EC831A74FA390076B105 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Profile.xcconfig; path = Configurations/Profile.xcconfig; sourceTree = "<group>"; };
+		C996EC841A74FA390076B105 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Configurations/Release.xcconfig; sourceTree = "<group>"; };
+		C996EC851A74FA390076B105 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Test.xcconfig; path = Configurations/Test.xcconfig; sourceTree = "<group>"; };
+		C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
+		C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		C996EC921A74FA390076B105 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		C996EC941A74FA390076B105 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
+		C996EC961A74FA390076B105 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
+		C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
+		C996EC981A74FA390076B105 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +99,7 @@
 				0DDF90EC158A1A0F00D44611 /* Base32 */,
 				C996EC641A74F2190076B105 /* Base32 */,
 				C996EC711A74F2190076B105 /* Base32Tests */,
+				C996EC7E1A74FA390076B105 /* xcconfigs */,
 				0DDF90E5158A1A0F00D44611 /* Frameworks */,
 				0DDF90E3158A1A0F00D44611 /* Products */,
 			);
@@ -96,7 +108,7 @@
 		0DDF90E3158A1A0F00D44611 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DDF90E2158A1A0F00D44611 /* Base32.app */,
+				0DDF90E2158A1A0F00D44611 /* Base32Tool.app */,
 				C996EC631A74F2180076B105 /* Base32.framework */,
 				C996EC6D1A74F2190076B105 /* Base32Tests.xctest */,
 			);
@@ -181,6 +193,49 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C996EC7E1A74FA390076B105 /* xcconfigs */ = {
+			isa = PBXGroup;
+			children = (
+				C996EC7F1A74FA390076B105 /* Base */,
+				C996EC8E1A74FA390076B105 /* iOS */,
+				C996EC931A74FA390076B105 /* Mac OS X */,
+			);
+			name = xcconfigs;
+			path = Carthage/Checkouts/xcconfigs;
+			sourceTree = "<group>";
+		};
+		C996EC7F1A74FA390076B105 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C996EC821A74FA390076B105 /* Debug.xcconfig */,
+				C996EC831A74FA390076B105 /* Profile.xcconfig */,
+				C996EC841A74FA390076B105 /* Release.xcconfig */,
+				C996EC851A74FA390076B105 /* Test.xcconfig */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		C996EC8E1A74FA390076B105 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */,
+				C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */,
+				C996EC921A74FA390076B105 /* iOS-StaticLibrary.xcconfig */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		C996EC931A74FA390076B105 /* Mac OS X */ = {
+			isa = PBXGroup;
+			children = (
+				C996EC941A74FA390076B105 /* Mac-Application.xcconfig */,
+				C996EC961A74FA390076B105 /* Mac-DynamicLibrary.xcconfig */,
+				C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */,
+				C996EC981A74FA390076B105 /* Mac-StaticLibrary.xcconfig */,
+			);
+			path = "Mac OS X";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -210,7 +265,7 @@
 			);
 			name = Base32Tool;
 			productName = Base32;
-			productReference = 0DDF90E2158A1A0F00D44611 /* Base32.app */;
+			productReference = 0DDF90E2158A1A0F00D44611 /* Base32Tool.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C996EC621A74F2180076B105 /* Base32 */ = {
@@ -380,6 +435,7 @@
 /* Begin XCBuildConfiguration section */
 		0DDF90FE158A1A1000D44611 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C996EC821A74FA390076B105 /* Debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -407,6 +463,7 @@
 		};
 		0DDF90FF158A1A1000D44611 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C996EC841A74FA390076B105 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
