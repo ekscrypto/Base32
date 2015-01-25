@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Freshcode. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import Foundation;
 
 //! Project version number for Base32.
 FOUNDATION_EXPORT double Base32VersionNumber;
