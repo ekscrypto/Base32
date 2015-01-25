@@ -110,9 +110,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0DDF90E1158A1A0F00D44611 /* Base32 */ = {
+		0DDF90E1158A1A0F00D44611 /* Base32Tool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32" */;
+			buildConfigurationList = 0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32Tool" */;
 			buildPhases = (
 				0DDF90DE158A1A0F00D44611 /* Sources */,
 				0DDF90DF158A1A0F00D44611 /* Frameworks */,
@@ -122,7 +122,7 @@
 			);
 			dependencies = (
 			);
-			name = Base32;
+			name = Base32Tool;
 			productName = Base32;
 			productReference = 0DDF90E2158A1A0F00D44611 /* Base32.app */;
 			productType = "com.apple.product-type.application";
@@ -149,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DDF90E1158A1A0F00D44611 /* Base32 */,
+				0DDF90E1158A1A0F00D44611 /* Base32Tool */,
 			);
 		};
 /* End PBXProject section */
@@ -291,7 +291,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32" */ = {
+		0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32Tool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DDF9101158A1A1000D44611 /* Debug */,
