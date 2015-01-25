@@ -268,9 +268,9 @@
 			productReference = 0DDF90E2158A1A0F00D44611 /* Base32Tool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C996EC621A74F2180076B105 /* Base32 */ = {
+		C996EC621A74F2180076B105 /* iOS-Base32 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32" */;
+			buildConfigurationList = C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "iOS-Base32" */;
 			buildPhases = (
 				C996EC5E1A74F2180076B105 /* Sources */,
 				C996EC5F1A74F2180076B105 /* Frameworks */,
@@ -281,14 +281,14 @@
 			);
 			dependencies = (
 			);
-			name = Base32;
+			name = "iOS-Base32";
 			productName = Base32;
 			productReference = C996EC631A74F2180076B105 /* Base32.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C996EC6C1A74F2190076B105 /* Base32Tests */ = {
+		C996EC6C1A74F2190076B105 /* iOS-Base32Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32Tests" */;
+			buildConfigurationList = C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "iOS-Base32Tests" */;
 			buildPhases = (
 				C996EC691A74F2190076B105 /* Sources */,
 				C996EC6A1A74F2190076B105 /* Frameworks */,
@@ -299,7 +299,7 @@
 			dependencies = (
 				C996EC701A74F2190076B105 /* PBXTargetDependency */,
 			);
-			name = Base32Tests;
+			name = "iOS-Base32Tests";
 			productName = Base32Tests;
 			productReference = C996EC6D1A74F2190076B105 /* Base32Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -335,8 +335,8 @@
 			projectRoot = "";
 			targets = (
 				0DDF90E1158A1A0F00D44611 /* Base32Tool */,
-				C996EC621A74F2180076B105 /* Base32 */,
-				C996EC6C1A74F2190076B105 /* Base32Tests */,
+				C996EC621A74F2180076B105 /* iOS-Base32 */,
+				C996EC6C1A74F2190076B105 /* iOS-Base32Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -400,7 +400,7 @@
 /* Begin PBXTargetDependency section */
 		C996EC701A74F2190076B105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C996EC621A74F2180076B105 /* Base32 */;
+			target = C996EC621A74F2180076B105 /* iOS-Base32 */;
 			targetProxy = C996EC6F1A74F2190076B105 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -486,7 +486,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Base32;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -501,7 +501,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Base32;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -512,7 +512,7 @@
 			baseConfigurationReference = C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Base32Tests/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Base32Tests;
 			};
 			name = Debug;
 		};
@@ -521,7 +521,7 @@
 			baseConfigurationReference = C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Base32Tests/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Base32Tests;
 			};
 			name = Release;
 		};
@@ -546,7 +546,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32" */ = {
+		C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "iOS-Base32" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C996EC771A74F2190076B105 /* Debug */,
@@ -554,7 +554,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32Tests" */ = {
+		C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "iOS-Base32Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C996EC7A1A74F2190076B105 /* Debug */,
