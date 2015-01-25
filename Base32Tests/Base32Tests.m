@@ -6,35 +6,47 @@
 //  Copyright (c) 2015 Freshcode. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
+@import Base32;
+
 
 @interface Base32Tests : XCTestCase
-
 @end
+
 
 @implementation Base32Tests
 
-- (void)setUp {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+- (void)testRandomData
+{
+    int totalTests = 0;
+    int totalSuccess = 0;
+    int totalFailed = 0;
+    for( int i = 0; i < 300; i++ ) {
+        NSData *randomDataBlock = [self randomDataBlock];
+        NSString *base32Rep = [randomDataBlock base32String];
+        NSData *revertedDataBlock = [MF_Base32Codec dataFromBase32String:base32Rep];
+        if( [randomDataBlock isEqualToData:revertedDataBlock] ) {
+            NSLog(@"SUCCESS: %@", base32Rep);
+            totalSuccess++;
+        } else {
+            XCTFail(@"FAILED: %@\noriginal data block: %@\n reverted data block: %@", base32Rep, randomDataBlock, revertedDataBlock);
+            totalFailed++;
+        }
+        totalTests++;
+    }
+    NSLog(@"Tests completed with %i failures, %i success out of %i tests", totalFailed, totalSuccess, totalTests);
 }
 
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
-}
+-(NSData *)randomDataBlock
+{
+#define MaxRandomDataLength 64
+    unsigned char bytes[MaxRandomDataLength];
+    long dataLength = random() % 64;
+    for(int i = 0; i < dataLength; i++ ) {
+        bytes[i] = random() % 256;
+    }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+    return [[NSData alloc] initWithBytes:bytes length:dataLength];
 }
 
 @end

@@ -15,37 +15,8 @@
 @synthesize textField = _textField;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
-{
-    int totalTests = 0;
-    int totalSuccess = 0;
-    int totalFailed = 0;
-    for( int i = 0; i < 300; i++ ) {
-        NSData *randomDataBlock = [self randomDataBlock];
-        NSString *base32Rep = [randomDataBlock base32String];
-        NSData *revertedDataBlock = [MF_Base32Codec dataFromBase32String:base32Rep];
-        if( [randomDataBlock isEqualToData:revertedDataBlock] ) {
-            NSLog(@"SUCCESS: %@", base32Rep);
-            totalSuccess++;
-        } else {
-            NSLog(@"FAILED: %@\noriginal data block: %@\n reverted data block: %@", base32Rep, randomDataBlock, revertedDataBlock);
-            totalFailed++;
-        }
-        totalTests++;
-    }
-    NSLog(@"Tests completed with %i failures, %i success out of %i tests", totalFailed, totalSuccess, totalTests);
-}
+{}
 
--(NSData *)randomDataBlock
-{
-#define MaxRandomDataLength 64
-    unsigned char bytes[MaxRandomDataLength];
-    long dataLength = random() % 64;
-    for(int i = 0; i < dataLength; i++ ) {
-        bytes[i] = random() % 256;
-    }
-    
-    return [[NSData alloc] initWithBytes:bytes length:dataLength];
-}
 -(void)encode:(id)sender
 {
     NSString *raw = [_textField stringValue];
