@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char Base32VersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Base32/PublicHeader.h>
 
-
+#import <Base32/MF_Base32Additions.h>
