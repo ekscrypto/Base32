@@ -127,8 +127,8 @@
 				0DDF90EC158A1A0F00D44611 /* Base32 */,
 				C996EC641A74F2190076B105 /* Base32 */,
 				C996EC711A74F2190076B105 /* Base32Tests */,
-				C996EC7E1A74FA390076B105 /* xcconfigs */,
 				0DDF90E5158A1A0F00D44611 /* Frameworks */,
+				C996EC7E1A74FA390076B105 /* xcconfigs */,
 				0DDF90E3158A1A0F00D44611 /* Products */,
 			);
 			sourceTree = "<group>";
