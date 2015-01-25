@@ -13,7 +13,7 @@
 		0DDF90F7158A1A0F00D44611 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90F5158A1A0F00D44611 /* Credits.rtf */; };
 		0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */; };
 		0DDF90FD158A1A1000D44611 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90FB158A1A1000D44611 /* MainMenu.xib */; };
-		0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
+		C969A5721A750B1E004FE0F7 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
 		C996EC681A74F2190076B105 /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996EC6E1A74F2190076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC631A74F2180076B105 /* Base32.framework */; };
 		C996EC751A74F2190076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
@@ -27,6 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C969A5701A750B19004FE0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDF90D9158A1A0F00D44611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C996EC9E1A7500D30076B105;
+			remoteInfo = "Mac-Base32";
+		};
 		C996EC6F1A74F2190076B105 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0DDF90D9158A1A0F00D44611 /* Project object */;
@@ -85,6 +92,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DDF90E7158A1A0F00D44611 /* Cocoa.framework in Frameworks */,
+				C969A5721A750B1E004FE0F7 /* Base32.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +300,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				C969A5711A750B19004FE0F7 /* PBXTargetDependency */,
 			);
 			name = Base32Tool;
 			productName = Base32;
@@ -463,7 +472,6 @@
 			files = (
 				0DDF90F3158A1A0F00D44611 /* main.m in Sources */,
 				0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */,
-				0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +510,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C969A5711A750B19004FE0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C996EC9E1A7500D30076B105 /* Mac-Base32 */;
+			targetProxy = C969A5701A750B19004FE0F7 /* PBXContainerItemProxy */;
+		};
 		C996EC701A74F2190076B105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C996EC621A74F2180076B105 /* iOS-Base32 */;
