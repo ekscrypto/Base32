@@ -3,7 +3,7 @@
 //  Base32Tests
 //
 //  Created by Matt Rubin on 1/25/15.
-//  Copyright (c) 2015 Freshcode. All rights reserved.
+//  Public Domain
 //
 
 @import XCTest;
