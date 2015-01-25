@@ -311,7 +311,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MF_;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
 					C996EC621A74F2180076B105 = {
@@ -437,9 +437,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC821A74FA390076B105 /* Debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -448,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC841A74FA390076B105 /* Release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
