@@ -17,6 +17,8 @@
 		C996EC681A74F2190076B105 /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996EC6E1A74F2190076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC631A74F2180076B105 /* Base32.framework */; };
 		C996EC751A74F2190076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
+		C996EC7C1A74F2C80076B105 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
+		C996EC7D1A74F2CC0076B105 /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,8 +128,6 @@
 				0DDF90F8158A1A0F00D44611 /* MF_AppDelegate.h */,
 				0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */,
 				0DDF90FB158A1A1000D44611 /* MainMenu.xib */,
-				0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */,
-				0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */,
 				0DDF90ED158A1A0F00D44611 /* Supporting Files */,
 			);
 			path = Base32;
@@ -149,6 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				C996EC671A74F2190076B105 /* Base32.h */,
+				0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */,
+				0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */,
 				C996EC651A74F2190076B105 /* Supporting Files */,
 			);
 			path = Base32;
@@ -187,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C996EC681A74F2190076B105 /* Base32.h in Headers */,
+				C996EC7D1A74F2CC0076B105 /* MF_Base32Additions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C996EC7C1A74F2C80076B105 /* MF_Base32Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
