@@ -42,10 +42,8 @@
         unsigned char *encodedBytes = (unsigned char *)[encodedData bytes];
 
         NSUInteger encodedLength = [encodedData length];
-        NSUInteger encodedBlocks = (encodedLength * 5) / 40;
-        if( encodedLength % 8 != 0 ) {
-            encodedBlocks++;
-        }
+        if( encodedLength >= (NSUIntegerMax - 7) ) return nil; // NSUInteger overflow check
+        NSUInteger encodedBlocks = (encodedLength + 7) >> 3;
         NSUInteger expectedDataLength = encodedBlocks * 5;
 
         decodedBytes = malloc(expectedDataLength);
@@ -149,7 +147,8 @@
         //     8 I            17 R            26 2
 
         NSUInteger dataLength = [data length];
-        NSUInteger encodedBlocks = (dataLength * 8) / 40;
+        NSUInteger encodedBlocks = dataLength / 5;
+        if( (encodedBlocks + 1) >= (NSUIntegerMax / 8) ) return nil; // NSUInteger overflow check
         NSUInteger padding = paddingTable[dataLength % 5];
         if( padding > 0 ) encodedBlocks++;
         NSUInteger encodedLength = encodedBlocks * 8;
