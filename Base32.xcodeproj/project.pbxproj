@@ -13,6 +13,9 @@
 		0DDF90F7158A1A0F00D44611 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90F5158A1A0F00D44611 /* Credits.rtf */; };
 		0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */; };
 		0DDF90FD158A1A1000D44611 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90FB158A1A1000D44611 /* MainMenu.xib */; };
+		5B39F48C1DBD058D00CD2DAB /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B39F48D1DBD059000CD2DAB /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B39F48E1DBD059300CD2DAB /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 		C969A5721A750B1E004FE0F7 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
 		C996EC681A74F2190076B105 /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996EC6E1A74F2190076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC631A74F2180076B105 /* Base32.framework */; };
@@ -66,6 +69,7 @@
 		0DDF90FC158A1A1000D44611 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base32Additions.h; sourceTree = "<group>"; };
 		0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base32Additions.m; sourceTree = "<group>"; };
+		5B39F4841DBD04A400CD2DAB /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996EC631A74F2180076B105 /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996EC661A74F2190076B105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C996EC671A74F2190076B105 /* Base32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base32.h; sourceTree = "<group>"; };
@@ -93,6 +97,13 @@
 			files = (
 				0DDF90E7158A1A0F00D44611 /* Cocoa.framework in Frameworks */,
 				C969A5721A750B1E004FE0F7 /* Base32.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B39F4801DBD04A400CD2DAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +160,7 @@
 				C996EC6D1A74F2190076B105 /* Base32Tests.xctest */,
 				C996EC9F1A7500D30076B105 /* Base32.framework */,
 				C996ECA91A7500D30076B105 /* Base32Tests.xctest */,
+				5B39F4841DBD04A400CD2DAB /* Base32.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -268,6 +280,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		5B39F4811DBD04A400CD2DAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B39F48D1DBD059000CD2DAB /* MF_Base32Additions.h in Headers */,
+				5B39F48C1DBD058D00CD2DAB /* Base32.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C996EC601A74F2180076B105 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,6 +327,24 @@
 			productName = Base32;
 			productReference = 0DDF90E2158A1A0F00D44611 /* Base32Tool.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5B39F4831DBD04A400CD2DAB /* watchOS-Base32 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B39F48B1DBD04A400CD2DAB /* Build configuration list for PBXNativeTarget "watchOS-Base32" */;
+			buildPhases = (
+				5B39F47F1DBD04A400CD2DAB /* Sources */,
+				5B39F4801DBD04A400CD2DAB /* Frameworks */,
+				5B39F4811DBD04A400CD2DAB /* Headers */,
+				5B39F4821DBD04A400CD2DAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchOS-Base32";
+			productName = "watchOS-Base32";
+			productReference = 5B39F4841DBD04A400CD2DAB /* Base32.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		C996EC621A74F2180076B105 /* iOS-Base32 */ = {
 			isa = PBXNativeTarget;
@@ -389,6 +428,10 @@
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
+					5B39F4831DBD04A400CD2DAB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
 					C996EC621A74F2180076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
@@ -420,6 +463,7 @@
 				C996EC6C1A74F2190076B105 /* iOS-Base32Tests */,
 				C996EC9E1A7500D30076B105 /* Mac-Base32 */,
 				C996ECA81A7500D30076B105 /* Mac-Base32Tests */,
+				5B39F4831DBD04A400CD2DAB /* watchOS-Base32 */,
 			);
 		};
 /* End PBXProject section */
@@ -432,6 +476,13 @@
 				0DDF90F1158A1A0F00D44611 /* InfoPlist.strings in Resources */,
 				0DDF90F7158A1A0F00D44611 /* Credits.rtf in Resources */,
 				0DDF90FD158A1A1000D44611 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B39F4821DBD04A400CD2DAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +523,14 @@
 			files = (
 				0DDF90F3158A1A0F00D44611 /* main.m in Sources */,
 				0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B39F47F1DBD04A400CD2DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B39F48E1DBD059300CD2DAB /* MF_Base32Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,6 +659,121 @@
 			};
 			name = Release;
 		};
+		5B39F4891DBD04A400CD2DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Base32/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mattrubin.Base32;
+				PRODUCT_NAME = Base32;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		5B39F48A1DBD04A400CD2DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Base32/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = me.mattrubin.Base32;
+				PRODUCT_NAME = Base32;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
 		C996EC771A74F2190076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */;
@@ -713,6 +887,15 @@
 			buildConfigurations = (
 				0DDF9101158A1A1000D44611 /* Debug */,
 				0DDF9102158A1A1000D44611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B39F48B1DBD04A400CD2DAB /* Build configuration list for PBXNativeTarget "watchOS-Base32" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B39F4891DBD04A400CD2DAB /* Debug */,
+				5B39F48A1DBD04A400CD2DAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
