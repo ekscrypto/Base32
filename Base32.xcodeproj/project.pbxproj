@@ -70,6 +70,9 @@
 		0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base32Additions.h; sourceTree = "<group>"; };
 		0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base32Additions.m; sourceTree = "<group>"; };
 		5B39F4841DBD04A400CD2DAB /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C995B86A1DCAD70C00E4632F /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
+		C995B86C1DCAD70C00E4632F /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
+		C995B86D1DCAD70C00E4632F /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		C996EC631A74F2180076B105 /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996EC661A74F2190076B105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C996EC671A74F2190076B105 /* Base32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base32.h; sourceTree = "<group>"; };
@@ -207,6 +210,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C995B8691DCAD70C00E4632F /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				C995B86A1DCAD70C00E4632F /* watchOS-Application.xcconfig */,
+				C995B86C1DCAD70C00E4632F /* watchOS-Framework.xcconfig */,
+				C995B86D1DCAD70C00E4632F /* watchOS-StaticLibrary.xcconfig */,
+			);
+			path = watchOS;
+			sourceTree = "<group>";
+		};
 		C996EC641A74F2190076B105 /* Base32 */ = {
 			isa = PBXGroup;
 			children = (
@@ -240,6 +253,7 @@
 				C996EC7F1A74FA390076B105 /* Base */,
 				C996EC8E1A74FA390076B105 /* iOS */,
 				C996EC931A74FA390076B105 /* Mac OS X */,
+				C995B8691DCAD70C00E4632F /* watchOS */,
 			);
 			name = xcconfigs;
 			path = Carthage/Checkouts/xcconfigs;
@@ -658,6 +672,7 @@
 		};
 		5B39F4891DBD04A400CD2DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C995B86C1DCAD70C00E4632F /* watchOS-Framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -718,6 +733,7 @@
 		};
 		5B39F48A1DBD04A400CD2DAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C995B86C1DCAD70C00E4632F /* watchOS-Framework.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
