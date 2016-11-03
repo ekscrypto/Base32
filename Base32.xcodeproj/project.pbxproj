@@ -425,7 +425,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MF_;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
 					5B39F4831DBD04A400CD2DAB = {
@@ -618,11 +618,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC821A74FA390076B105 /* Debug.xcconfig */;
 			buildSettings = {
-				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -630,10 +627,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC841A74FA390076B105 /* Release.xcconfig */;
 			buildSettings = {
-				GCC_NO_COMMON_BLOCKS = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -643,6 +638,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -654,6 +650,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -784,6 +781,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Base32/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Base32;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -800,6 +798,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = Base32/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Base32;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -832,6 +831,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Base32/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Base32;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -848,6 +848,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Base32/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Base32;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
