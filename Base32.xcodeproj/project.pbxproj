@@ -442,21 +442,28 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
+					0DDF90E1158A1A0F00D44611 = {
+						ProvisioningStyle = Manual;
+					};
 					5B39F4831DBD04A400CD2DAB = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					C996EC621A74F2180076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Manual;
 					};
 					C996EC6C1A74F2190076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Manual;
 					};
 					C996EC9E1A7500D30076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Manual;
 					};
 					C996ECA81A7500D30076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -696,7 +703,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Base32;
@@ -707,7 +713,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Base32;
