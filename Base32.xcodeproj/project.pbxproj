@@ -690,7 +690,6 @@
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = me.mattrubin.Base32;
 				PRODUCT_NAME = Base32;
-				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -715,7 +714,6 @@
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = me.mattrubin.Base32;
 				PRODUCT_NAME = Base32;
-				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
