@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C996EC621A74F2180076B105"
                BuildableName = "Base32.framework"
-               BlueprintName = "iOS-Base32"
+               BlueprintName = "Base32 (iOS)"
                ReferencedContainer = "container:Base32.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C996EC6C1A74F2190076B105"
                BuildableName = "Base32Tests.xctest"
-               BlueprintName = "iOS-Base32Tests"
+               BlueprintName = "Base32Tests (iOS)"
                ReferencedContainer = "container:Base32.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C996EC621A74F2180076B105"
             BuildableName = "Base32.framework"
-            BlueprintName = "iOS-Base32"
+            BlueprintName = "Base32 (iOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -66,7 +66,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C996EC621A74F2180076B105"
             BuildableName = "Base32.framework"
-            BlueprintName = "iOS-Base32"
+            BlueprintName = "Base32 (iOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -84,7 +84,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C996EC621A74F2180076B105"
             BuildableName = "Base32.framework"
-            BlueprintName = "iOS-Base32"
+            BlueprintName = "Base32 (iOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

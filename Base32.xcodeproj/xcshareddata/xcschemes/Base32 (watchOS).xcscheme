@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C996EC9E1A7500D30076B105"
+               BlueprintIdentifier = "5B39F4831DBD04A400CD2DAB"
                BuildableName = "Base32.framework"
-               BlueprintName = "macOS-Base32"
+               BlueprintName = "Base32 (watchOS)"
                ReferencedContainer = "container:Base32.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,23 +28,13 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C996ECA81A7500D30076B105"
-               BuildableName = "Base32Tests.xctest"
-               BlueprintName = "macOS-Base32Tests"
-               ReferencedContainer = "container:Base32.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C996EC9E1A7500D30076B105"
+            BlueprintIdentifier = "5B39F4831DBD04A400CD2DAB"
             BuildableName = "Base32.framework"
-            BlueprintName = "macOS-Base32"
+            BlueprintName = "Base32 (watchOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +54,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C996EC9E1A7500D30076B105"
+            BlueprintIdentifier = "5B39F4831DBD04A400CD2DAB"
             BuildableName = "Base32.framework"
-            BlueprintName = "macOS-Base32"
+            BlueprintName = "Base32 (watchOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +72,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C996EC9E1A7500D30076B105"
+            BlueprintIdentifier = "5B39F4831DBD04A400CD2DAB"
             BuildableName = "Base32.framework"
-            BlueprintName = "macOS-Base32"
+            BlueprintName = "Base32 (watchOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
