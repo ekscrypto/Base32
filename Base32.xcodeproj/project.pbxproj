@@ -599,9 +599,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Base32;
 			};
 			name = Debug;
 		};
@@ -609,9 +606,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Base32;
 			};
 			name = Release;
 		};
@@ -619,9 +613,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Base32;
 			};
 			name = Debug;
 		};
@@ -629,9 +620,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Base32;
 			};
 			name = Release;
 		};
@@ -655,9 +643,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Base32;
 			};
 			name = Debug;
 		};
@@ -665,9 +650,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */;
 			buildSettings = {
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Base32;
 			};
 			name = Release;
 		};
