@@ -1,0 +1,2 @@
+#include "../Carthage/Checkouts/xcconfigs/iOS/iOS-Application.xcconfig"
+#include "Base32Tests.xcconfig"

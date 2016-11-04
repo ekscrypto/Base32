@@ -35,7 +35,7 @@
 			containerPortal = 0DDF90D9158A1A0F00D44611 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C996EC9E1A7500D30076B105;
-			remoteInfo = "Base32";
+			remoteInfo = Base32;
 		};
 		C996EC6F1A74F2190076B105 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -70,9 +70,6 @@
 		0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base32Additions.h; sourceTree = "<group>"; };
 		0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base32Additions.m; sourceTree = "<group>"; };
 		5B39F4841DBD04A400CD2DAB /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C995B86A1DCAD70C00E4632F /* watchOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Application.xcconfig"; sourceTree = "<group>"; };
-		C995B86C1DCAD70C00E4632F /* watchOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		C995B86D1DCAD70C00E4632F /* watchOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "watchOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
 		C996EC631A74F2180076B105 /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996EC661A74F2190076B105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C996EC671A74F2190076B105 /* Base32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base32.h; sourceTree = "<group>"; };
@@ -82,15 +79,16 @@
 		C996EC831A74FA390076B105 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Profile.xcconfig; path = Configurations/Profile.xcconfig; sourceTree = "<group>"; };
 		C996EC841A74FA390076B105 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Configurations/Release.xcconfig; sourceTree = "<group>"; };
 		C996EC851A74FA390076B105 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Test.xcconfig; path = Configurations/Test.xcconfig; sourceTree = "<group>"; };
-		C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
-		C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		C996EC921A74FA390076B105 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		C996EC941A74FA390076B105 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
-		C996EC961A74FA390076B105 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
-		C996EC981A74FA390076B105 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		C996EC941A74FA390076B105 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Mac-Application.xcconfig"; path = "Carthage/Checkouts/xcconfigs/Mac OS X/Mac-Application.xcconfig"; sourceTree = SOURCE_ROOT; };
 		C996EC9F1A7500D30076B105 /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996ECA91A7500D30076B105 /* Base32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99ECD5B1DCC2DCC00A1BF3C /* Base32.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base32.xcconfig; sourceTree = "<group>"; };
+		C99ECD5C1DCC2DD800A1BF3C /* Base32Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base32Tests.xcconfig; sourceTree = "<group>"; };
+		C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32-iOS.xcconfig"; sourceTree = "<group>"; };
+		C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32-macOS.xcconfig"; sourceTree = "<group>"; };
+		C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32-watchOS.xcconfig"; sourceTree = "<group>"; };
+		C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32Tests-iOS.xcconfig"; sourceTree = "<group>"; };
+		C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32Tests-macOS.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +127,7 @@
 				C996EC641A74F2190076B105 /* Base32 */,
 				C996EC711A74F2190076B105 /* Base32Tests */,
 				0DDF90E5158A1A0F00D44611 /* Frameworks */,
-				C996EC7E1A74FA390076B105 /* xcconfigs */,
+				C996EC7E1A74FA390076B105 /* Configuration */,
 				0DDF90E3158A1A0F00D44611 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -189,16 +187,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		C995B8691DCAD70C00E4632F /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				C995B86A1DCAD70C00E4632F /* watchOS-Application.xcconfig */,
-				C995B86C1DCAD70C00E4632F /* watchOS-Framework.xcconfig */,
-				C995B86D1DCAD70C00E4632F /* watchOS-StaticLibrary.xcconfig */,
-			);
-			path = watchOS;
-			sourceTree = "<group>";
-		};
 		C996EC641A74F2190076B105 /* Base32 */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,19 +214,16 @@
 			path = Base32Tests;
 			sourceTree = "<group>";
 		};
-		C996EC7E1A74FA390076B105 /* xcconfigs */ = {
+		C996EC7E1A74FA390076B105 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				C996EC7F1A74FA390076B105 /* Base */,
-				C996EC8E1A74FA390076B105 /* iOS */,
-				C996EC931A74FA390076B105 /* macOS */,
-				C995B8691DCAD70C00E4632F /* watchOS */,
+				C996EC7F1A74FA390076B105 /* Project */,
+				C99ECD5A1DCC2D7700A1BF3C /* Targets */,
 			);
-			name = xcconfigs;
-			path = Carthage/Checkouts/xcconfigs;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
-		C996EC7F1A74FA390076B105 /* Base */ = {
+		C996EC7F1A74FA390076B105 /* Project */ = {
 			isa = PBXGroup;
 			children = (
 				C996EC821A74FA390076B105 /* Debug.xcconfig */,
@@ -246,29 +231,23 @@
 				C996EC841A74FA390076B105 /* Release.xcconfig */,
 				C996EC851A74FA390076B105 /* Test.xcconfig */,
 			);
-			path = Base;
-			sourceTree = "<group>";
+			name = Project;
+			path = Carthage/Checkouts/xcconfigs/Base;
+			sourceTree = SOURCE_ROOT;
 		};
-		C996EC8E1A74FA390076B105 /* iOS */ = {
+		C99ECD5A1DCC2D7700A1BF3C /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */,
-				C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */,
-				C996EC921A74FA390076B105 /* iOS-StaticLibrary.xcconfig */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		C996EC931A74FA390076B105 /* macOS */ = {
-			isa = PBXGroup;
-			children = (
+				C99ECD5B1DCC2DCC00A1BF3C /* Base32.xcconfig */,
+				C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */,
+				C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */,
+				C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */,
+				C99ECD5C1DCC2DD800A1BF3C /* Base32Tests.xcconfig */,
+				C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */,
+				C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */,
 				C996EC941A74FA390076B105 /* Mac-Application.xcconfig */,
-				C996EC961A74FA390076B105 /* Mac-DynamicLibrary.xcconfig */,
-				C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */,
-				C996EC981A74FA390076B105 /* Mac-StaticLibrary.xcconfig */,
 			);
-			name = macOS;
-			path = "Mac OS X";
+			name = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,7 +313,7 @@
 			dependencies = (
 			);
 			name = "Base32 (watchOS)";
-			productName = "Base32";
+			productName = Base32;
 			productReference = 5B39F4841DBD04A400CD2DAB /* Base32.framework */;
 			productType = "com.apple.product-type.framework";
 		};
@@ -618,7 +597,7 @@
 		};
 		5B39F4891DBD04A400CD2DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C995B86C1DCAD70C00E4632F /* watchOS-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
@@ -628,7 +607,7 @@
 		};
 		5B39F48A1DBD04A400CD2DAB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C995B86C1DCAD70C00E4632F /* watchOS-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
@@ -638,7 +617,7 @@
 		};
 		C996EC771A74F2190076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
@@ -648,7 +627,7 @@
 		};
 		C996EC781A74F2190076B105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
@@ -658,7 +637,7 @@
 		};
 		C996EC7A1A74F2190076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */;
+			baseConfigurationReference = C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = Base32Tests;
 			};
@@ -666,7 +645,7 @@
 		};
 		C996EC7B1A74F2190076B105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */;
+			baseConfigurationReference = C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = Base32Tests;
 			};
@@ -674,7 +653,7 @@
 		};
 		C996ECB31A7500D40076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
@@ -684,7 +663,7 @@
 		};
 		C996ECB41A7500D40076B105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = Base32/Info.plist;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.mattrubin.$(PRODUCT_NAME:rfc1034identifier)";
@@ -694,7 +673,7 @@
 		};
 		C996ECB61A7500D40076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC941A74FA390076B105 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = Base32Tests;
 			};
@@ -702,7 +681,7 @@
 		};
 		C996ECB71A7500D40076B105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC941A74FA390076B105 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = Base32Tests;
 			};
