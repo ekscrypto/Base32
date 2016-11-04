@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5B39F4831DBD04A400CD2DAB"
                BuildableName = "Base32.framework"
-               BlueprintName = "watchOS-Base32"
+               BlueprintName = "Base32 (watchOS)"
                ReferencedContainer = "container:Base32.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -34,7 +34,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B39F4831DBD04A400CD2DAB"
             BuildableName = "Base32.framework"
-            BlueprintName = "watchOS-Base32"
+            BlueprintName = "Base32 (watchOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,7 +56,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B39F4831DBD04A400CD2DAB"
             BuildableName = "Base32.framework"
-            BlueprintName = "watchOS-Base32"
+            BlueprintName = "Base32 (watchOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -74,7 +74,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5B39F4831DBD04A400CD2DAB"
             BuildableName = "Base32.framework"
-            BlueprintName = "watchOS-Base32"
+            BlueprintName = "Base32 (watchOS)"
             ReferencedContainer = "container:Base32.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
