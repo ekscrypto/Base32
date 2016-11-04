@@ -627,7 +627,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Base32Tests;
 			};
 			name = Debug;
 		};
@@ -635,7 +634,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Base32Tests;
 			};
 			name = Release;
 		};
@@ -657,7 +655,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Base32Tests;
 			};
 			name = Debug;
 		};
@@ -665,7 +662,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Base32Tests;
 			};
 			name = Release;
 		};
