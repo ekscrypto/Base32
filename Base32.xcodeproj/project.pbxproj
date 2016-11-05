@@ -202,6 +202,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C9357C191DCD7B6B007C1419 /* Base32 */ = {
+			isa = PBXGroup;
+			children = (
+				C99ECD5B1DCC2DCC00A1BF3C /* Base32.xcconfig */,
+				C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */,
+				C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */,
+				C9357C131DCD6F43007C1419 /* Base32-tvOS.xcconfig */,
+				C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */,
+			);
+			name = Base32;
+			sourceTree = "<group>";
+		};
+		C9357C1A1DCD7B73007C1419 /* Base32Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C99ECD5C1DCC2DD800A1BF3C /* Base32Tests.xcconfig */,
+				C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */,
+				C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */,
+				C9357C141DCD6F5A007C1419 /* Base32Tests-tvOS.xcconfig */,
+			);
+			name = Base32Tests;
+			sourceTree = "<group>";
+		};
 		C996EC641A74F2190076B105 /* Base32 */ = {
 			isa = PBXGroup;
 			children = (
@@ -253,15 +276,8 @@
 		C99ECD5A1DCC2D7700A1BF3C /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				C99ECD5B1DCC2DCC00A1BF3C /* Base32.xcconfig */,
-				C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */,
-				C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */,
-				C9357C131DCD6F43007C1419 /* Base32-tvOS.xcconfig */,
-				C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */,
-				C99ECD5C1DCC2DD800A1BF3C /* Base32Tests.xcconfig */,
-				C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */,
-				C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */,
-				C9357C141DCD6F5A007C1419 /* Base32Tests-tvOS.xcconfig */,
+				C9357C191DCD7B6B007C1419 /* Base32 */,
+				C9357C1A1DCD7B73007C1419 /* Base32Tests */,
 				C996EC941A74FA390076B105 /* Mac-Application.xcconfig */,
 			);
 			name = Targets;
