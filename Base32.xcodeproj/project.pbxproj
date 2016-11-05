@@ -18,9 +18,7 @@
 		C9357C181DCD74E5007C1419 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
 		C969A5721A750B1E004FE0F7 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
 		C996EC6E1A74F2190076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC631A74F2180076B105 /* Base32.framework */; };
-		C996EC751A74F2190076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
 		C996ECAA1A7500D40076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
-		C996ECB81A75036C0076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
 		C996ECBA1A7503930076B105 /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996ECBB1A7503980076B105 /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -371,7 +369,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32Tests (iOS)" */;
 			buildPhases = (
-				C996EC691A74F2190076B105 /* Sources */,
+				C9357C001DCD6BED007C1419 /* Sources */,
 				C996EC6A1A74F2190076B105 /* Frameworks */,
 			);
 			buildRules = (
@@ -404,7 +402,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C996ECB51A7500D40076B105 /* Build configuration list for PBXNativeTarget "Base32Tests (macOS)" */;
 			buildPhases = (
-				C996ECA51A7500D30076B105 /* Sources */,
+				C9357C001DCD6BED007C1419 /* Sources */,
 				C996ECA61A7500D30076B105 /* Frameworks */,
 			);
 			buildRules = (
@@ -520,22 +518,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9357C181DCD74E5007C1419 /* Base32Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996EC691A74F2190076B105 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C996EC751A74F2190076B105 /* Base32Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996ECA51A7500D30076B105 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C996ECB81A75036C0076B105 /* Base32Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
