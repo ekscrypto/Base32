@@ -16,12 +16,10 @@
 		0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 		5B39F48C1DBD058D00CD2DAB /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B39F48D1DBD059000CD2DAB /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B39F48E1DBD059300CD2DAB /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 		C969A5721A750B1E004FE0F7 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
 		C996EC681A74F2190076B105 /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996EC6E1A74F2190076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC631A74F2180076B105 /* Base32.framework */; };
 		C996EC751A74F2190076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
-		C996EC7C1A74F2C80076B105 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 		C996EC7D1A74F2CC0076B105 /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996ECAA1A7500D40076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
 		C996ECB81A75036C0076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
@@ -321,7 +319,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32 (iOS)" */;
 			buildPhases = (
-				C996EC5E1A74F2180076B105 /* Sources */,
+				5B39F47F1DBD04A400CD2DAB /* Sources */,
 				C996EC601A74F2180076B105 /* Headers */,
 			);
 			buildRules = (
@@ -354,7 +352,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C996ECB21A7500D40076B105 /* Build configuration list for PBXNativeTarget "Base32 (macOS)" */;
 			buildPhases = (
-				C996EC9A1A7500D30076B105 /* Sources */,
+				5B39F47F1DBD04A400CD2DAB /* Sources */,
 				C996EC9C1A7500D30076B105 /* Headers */,
 			);
 			buildRules = (
@@ -467,15 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B39F48E1DBD059300CD2DAB /* MF_Base32Additions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996EC5E1A74F2180076B105 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C996EC7C1A74F2C80076B105 /* MF_Base32Additions.m in Sources */,
+				0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,14 +474,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C996EC751A74F2190076B105 /* Base32Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996EC9A1A7500D30076B105 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
