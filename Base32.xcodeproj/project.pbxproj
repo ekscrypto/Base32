@@ -54,7 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DDF90E2158A1A0F00D44611 /* Base32Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base32Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDF90E2158A1A0F00D44611 /* Base32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base32.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDF90E6158A1A0F00D44611 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0DDF90E9158A1A0F00D44611 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0DDF90EA158A1A0F00D44611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -135,7 +135,7 @@
 		0DDF90E3158A1A0F00D44611 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DDF90E2158A1A0F00D44611 /* Base32Tool.app */,
+				0DDF90E2158A1A0F00D44611 /* Base32.app */,
 				C996EC631A74F2180076B105 /* Base32.framework */,
 				C996EC6D1A74F2190076B105 /* Base32Tests.xctest */,
 				C996EC9F1A7500D30076B105 /* Base32.framework */,
@@ -283,9 +283,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0DDF90E1158A1A0F00D44611 /* Base32Tool */ = {
+		0DDF90E1158A1A0F00D44611 /* Base32 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32Tool" */;
+			buildConfigurationList = 0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32" */;
 			buildPhases = (
 				0DDF90DE158A1A0F00D44611 /* Sources */,
 				0DDF90DF158A1A0F00D44611 /* Frameworks */,
@@ -296,9 +296,9 @@
 			dependencies = (
 				C969A5711A750B19004FE0F7 /* PBXTargetDependency */,
 			);
-			name = Base32Tool;
+			name = Base32;
 			productName = Base32;
-			productReference = 0DDF90E2158A1A0F00D44611 /* Base32Tool.app */;
+			productReference = 0DDF90E2158A1A0F00D44611 /* Base32.app */;
 			productType = "com.apple.product-type.application";
 		};
 		5B39F4831DBD04A400CD2DAB /* Base32 (watchOS) */ = {
@@ -430,7 +430,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DDF90E1158A1A0F00D44611 /* Base32Tool */,
+				0DDF90E1158A1A0F00D44611 /* Base32 */,
 				C996EC621A74F2180076B105 /* Base32 (iOS) */,
 				C996EC6C1A74F2190076B105 /* Base32Tests (iOS) */,
 				C996EC9E1A7500D30076B105 /* Base32 (macOS) */,
@@ -677,7 +677,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32Tool" */ = {
+		0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DDF9101158A1A1000D44611 /* Debug */,
