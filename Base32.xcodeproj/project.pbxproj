@@ -13,6 +13,7 @@
 		0DDF90F7158A1A0F00D44611 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90F5158A1A0F00D44611 /* Credits.rtf */; };
 		0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */; };
 		0DDF90FD158A1A1000D44611 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90FB158A1A1000D44611 /* MainMenu.xib */; };
+		0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 		5B39F48C1DBD058D00CD2DAB /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B39F48D1DBD059000CD2DAB /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B39F48E1DBD059300CD2DAB /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
@@ -24,7 +25,6 @@
 		C996EC7D1A74F2CC0076B105 /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996ECAA1A7500D40076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
 		C996ECB81A75036C0076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
-		C996ECB91A7503860076B105 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 		C996ECBA1A7503930076B105 /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996ECBB1A7503980076B105 /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -491,7 +491,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C996ECB91A7503860076B105 /* MF_Base32Additions.m in Sources */,
+				0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
