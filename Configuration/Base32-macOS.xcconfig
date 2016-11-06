@@ -1,0 +1,2 @@
+#include "../Carthage/Checkouts/xcconfigs/Mac OS X/Mac-Framework.xcconfig"
+#include "Base32.xcconfig"

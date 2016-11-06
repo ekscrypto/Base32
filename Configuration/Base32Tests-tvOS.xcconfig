@@ -1,0 +1,2 @@
+#include "../Carthage/Checkouts/xcconfigs/tvOS/tvOS-Application.xcconfig"
+#include "Base32Tests.xcconfig"

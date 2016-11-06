@@ -13,26 +13,30 @@
 		0DDF90F7158A1A0F00D44611 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90F5158A1A0F00D44611 /* Credits.rtf */; };
 		0DDF90FA158A1A0F00D44611 /* MF_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */; };
 		0DDF90FD158A1A1000D44611 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DDF90FB158A1A1000D44611 /* MainMenu.xib */; };
+		0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
+		C9357C051DCD6BED007C1419 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9357BFC1DCD6BED007C1419 /* Base32.framework */; };
 		C969A5721A750B1E004FE0F7 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
-		C996EC681A74F2190076B105 /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996EC6E1A74F2190076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC631A74F2180076B105 /* Base32.framework */; };
 		C996EC751A74F2190076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
-		C996EC7C1A74F2C80076B105 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
-		C996EC7D1A74F2CC0076B105 /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996ECAA1A7500D40076B105 /* Base32.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C996EC9F1A7500D30076B105 /* Base32.framework */; };
-		C996ECB81A75036C0076B105 /* Base32Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C996EC741A74F2190076B105 /* Base32Tests.m */; };
-		C996ECB91A7503860076B105 /* MF_Base32Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */; };
 		C996ECBA1A7503930076B105 /* MF_Base32Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C996ECBB1A7503980076B105 /* Base32.h in Headers */ = {isa = PBXBuildFile; fileRef = C996EC671A74F2190076B105 /* Base32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C9357C061DCD6BED007C1419 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DDF90D9158A1A0F00D44611 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9357BFB1DCD6BED007C1419;
+			remoteInfo = Base32;
+		};
 		C969A5701A750B19004FE0F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0DDF90D9158A1A0F00D44611 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C996EC9E1A7500D30076B105;
-			remoteInfo = "Mac-Base32";
+			remoteInfo = Base32;
 		};
 		C996EC6F1A74F2190076B105 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -51,7 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DDF90E2158A1A0F00D44611 /* Base32Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base32Tool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DDF90E2158A1A0F00D44611 /* Base32.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base32.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DDF90E6158A1A0F00D44611 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		0DDF90E9158A1A0F00D44611 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		0DDF90EA158A1A0F00D44611 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -66,24 +70,29 @@
 		0DDF90FC158A1A1000D44611 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base32Additions.h; sourceTree = "<group>"; };
 		0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base32Additions.m; sourceTree = "<group>"; };
+		5B39F4841DBD04A400CD2DAB /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9357BFC1DCD6BED007C1419 /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9357C041DCD6BED007C1419 /* Base32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9357C131DCD6F43007C1419 /* Base32-tvOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32-tvOS.xcconfig"; sourceTree = "<group>"; };
+		C9357C141DCD6F5A007C1419 /* Base32Tests-tvOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32Tests-tvOS.xcconfig"; sourceTree = "<group>"; };
+		C9357C1B1DCD7BD6007C1419 /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		C9357C1C1DCD7BE4007C1419 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		C9357C1D1DCD7BFF007C1419 /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
 		C996EC631A74F2180076B105 /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996EC661A74F2190076B105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C996EC671A74F2190076B105 /* Base32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base32.h; sourceTree = "<group>"; };
 		C996EC6D1A74F2190076B105 /* Base32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996EC741A74F2190076B105 /* Base32Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base32Tests.m; sourceTree = "<group>"; };
-		C996EC821A74FA390076B105 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Configurations/Debug.xcconfig; sourceTree = "<group>"; };
-		C996EC831A74FA390076B105 /* Profile.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Profile.xcconfig; path = Configurations/Profile.xcconfig; sourceTree = "<group>"; };
-		C996EC841A74FA390076B105 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Configurations/Release.xcconfig; sourceTree = "<group>"; };
-		C996EC851A74FA390076B105 /* Test.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Test.xcconfig; path = Configurations/Test.xcconfig; sourceTree = "<group>"; };
-		C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Application.xcconfig"; sourceTree = "<group>"; };
-		C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-Framework.xcconfig"; sourceTree = "<group>"; };
-		C996EC921A74FA390076B105 /* iOS-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
-		C996EC941A74FA390076B105 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Application.xcconfig"; sourceTree = "<group>"; };
-		C996EC961A74FA390076B105 /* Mac-DynamicLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-DynamicLibrary.xcconfig"; sourceTree = "<group>"; };
-		C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-Framework.xcconfig"; sourceTree = "<group>"; };
-		C996EC981A74FA390076B105 /* Mac-StaticLibrary.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Mac-StaticLibrary.xcconfig"; sourceTree = "<group>"; };
+		C996EC941A74FA390076B105 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Mac-Application.xcconfig"; path = "Carthage/Checkouts/xcconfigs/Mac OS X/Mac-Application.xcconfig"; sourceTree = SOURCE_ROOT; };
 		C996EC9F1A7500D30076B105 /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996ECA91A7500D30076B105 /* Base32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99ECD5B1DCC2DCC00A1BF3C /* Base32.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base32.xcconfig; sourceTree = "<group>"; };
+		C99ECD5C1DCC2DD800A1BF3C /* Base32Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base32Tests.xcconfig; sourceTree = "<group>"; };
+		C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32-iOS.xcconfig"; sourceTree = "<group>"; };
+		C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32-macOS.xcconfig"; sourceTree = "<group>"; };
+		C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32-watchOS.xcconfig"; sourceTree = "<group>"; };
+		C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32Tests-iOS.xcconfig"; sourceTree = "<group>"; };
+		C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Base32Tests-macOS.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,10 +105,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C996EC5F1A74F2180076B105 /* Frameworks */ = {
+		C9357C011DCD6BED007C1419 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9357C051DCD6BED007C1419 /* Base32.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,13 +118,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C996EC6E1A74F2190076B105 /* Base32.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996EC9B1A7500D30076B105 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +139,7 @@
 				C996EC641A74F2190076B105 /* Base32 */,
 				C996EC711A74F2190076B105 /* Base32Tests */,
 				0DDF90E5158A1A0F00D44611 /* Frameworks */,
-				C996EC7E1A74FA390076B105 /* xcconfigs */,
+				C996EC7E1A74FA390076B105 /* Configuration */,
 				0DDF90E3158A1A0F00D44611 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -144,11 +147,14 @@
 		0DDF90E3158A1A0F00D44611 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0DDF90E2158A1A0F00D44611 /* Base32Tool.app */,
+				0DDF90E2158A1A0F00D44611 /* Base32.app */,
 				C996EC631A74F2180076B105 /* Base32.framework */,
 				C996EC6D1A74F2190076B105 /* Base32Tests.xctest */,
 				C996EC9F1A7500D30076B105 /* Base32.framework */,
 				C996ECA91A7500D30076B105 /* Base32Tests.xctest */,
+				C9357BFC1DCD6BED007C1419 /* Base32.framework */,
+				C9357C041DCD6BED007C1419 /* Base32Tests.xctest */,
+				5B39F4841DBD04A400CD2DAB /* Base32.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +201,29 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C9357C191DCD7B6B007C1419 /* Base32 */ = {
+			isa = PBXGroup;
+			children = (
+				C99ECD5B1DCC2DCC00A1BF3C /* Base32.xcconfig */,
+				C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */,
+				C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */,
+				C9357C131DCD6F43007C1419 /* Base32-tvOS.xcconfig */,
+				C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */,
+			);
+			name = Base32;
+			sourceTree = "<group>";
+		};
+		C9357C1A1DCD7B73007C1419 /* Base32Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C99ECD5C1DCC2DD800A1BF3C /* Base32Tests.xcconfig */,
+				C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */,
+				C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */,
+				C9357C141DCD6F5A007C1419 /* Base32Tests-tvOS.xcconfig */,
+			);
+			name = Base32Tests;
+			sourceTree = "<group>";
+		};
 		C996EC641A74F2190076B105 /* Base32 */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,61 +251,38 @@
 			path = Base32Tests;
 			sourceTree = "<group>";
 		};
-		C996EC7E1A74FA390076B105 /* xcconfigs */ = {
+		C996EC7E1A74FA390076B105 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				C996EC7F1A74FA390076B105 /* Base */,
-				C996EC8E1A74FA390076B105 /* iOS */,
-				C996EC931A74FA390076B105 /* Mac OS X */,
+				C996EC7F1A74FA390076B105 /* Project */,
+				C99ECD5A1DCC2D7700A1BF3C /* Targets */,
 			);
-			name = xcconfigs;
-			path = Carthage/Checkouts/xcconfigs;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
-		C996EC7F1A74FA390076B105 /* Base */ = {
+		C996EC7F1A74FA390076B105 /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				C996EC821A74FA390076B105 /* Debug.xcconfig */,
-				C996EC831A74FA390076B105 /* Profile.xcconfig */,
-				C996EC841A74FA390076B105 /* Release.xcconfig */,
-				C996EC851A74FA390076B105 /* Test.xcconfig */,
+				C9357C1B1DCD7BD6007C1419 /* Project.xcconfig */,
+				C9357C1C1DCD7BE4007C1419 /* Project-Debug.xcconfig */,
+				C9357C1D1DCD7BFF007C1419 /* Project-Release.xcconfig */,
 			);
-			path = Base;
+			name = Project;
 			sourceTree = "<group>";
 		};
-		C996EC8E1A74FA390076B105 /* iOS */ = {
+		C99ECD5A1DCC2D7700A1BF3C /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */,
-				C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */,
-				C996EC921A74FA390076B105 /* iOS-StaticLibrary.xcconfig */,
-			);
-			path = iOS;
-			sourceTree = "<group>";
-		};
-		C996EC931A74FA390076B105 /* Mac OS X */ = {
-			isa = PBXGroup;
-			children = (
+				C9357C191DCD7B6B007C1419 /* Base32 */,
+				C9357C1A1DCD7B73007C1419 /* Base32Tests */,
 				C996EC941A74FA390076B105 /* Mac-Application.xcconfig */,
-				C996EC961A74FA390076B105 /* Mac-DynamicLibrary.xcconfig */,
-				C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */,
-				C996EC981A74FA390076B105 /* Mac-StaticLibrary.xcconfig */,
 			);
-			path = "Mac OS X";
+			name = Targets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C996EC601A74F2180076B105 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C996EC681A74F2190076B105 /* Base32.h in Headers */,
-				C996EC7D1A74F2CC0076B105 /* MF_Base32Additions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C996EC9C1A7500D30076B105 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -289,9 +295,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0DDF90E1158A1A0F00D44611 /* Base32Tool */ = {
+		0DDF90E1158A1A0F00D44611 /* Base32 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32Tool" */;
+			buildConfigurationList = 0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32" */;
 			buildPhases = (
 				0DDF90DE158A1A0F00D44611 /* Sources */,
 				0DDF90DF158A1A0F00D44611 /* Frameworks */,
@@ -302,79 +308,122 @@
 			dependencies = (
 				C969A5711A750B19004FE0F7 /* PBXTargetDependency */,
 			);
-			name = Base32Tool;
+			name = Base32;
 			productName = Base32;
-			productReference = 0DDF90E2158A1A0F00D44611 /* Base32Tool.app */;
+			productReference = 0DDF90E2158A1A0F00D44611 /* Base32.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C996EC621A74F2180076B105 /* iOS-Base32 */ = {
+		5B39F4831DBD04A400CD2DAB /* Base32 (watchOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "iOS-Base32" */;
+			buildConfigurationList = 5B39F48B1DBD04A400CD2DAB /* Build configuration list for PBXNativeTarget "Base32 (watchOS)" */;
 			buildPhases = (
 				C996EC5E1A74F2180076B105 /* Sources */,
-				C996EC5F1A74F2180076B105 /* Frameworks */,
-				C996EC601A74F2180076B105 /* Headers */,
-				C996EC611A74F2180076B105 /* Resources */,
+				C996EC9C1A7500D30076B105 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "iOS-Base32";
+			name = "Base32 (watchOS)";
+			productName = Base32;
+			productReference = 5B39F4841DBD04A400CD2DAB /* Base32.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9357BFB1DCD6BED007C1419 /* Base32 (tvOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9357C0D1DCD6BED007C1419 /* Build configuration list for PBXNativeTarget "Base32 (tvOS)" */;
+			buildPhases = (
+				C996EC5E1A74F2180076B105 /* Sources */,
+				C996EC9C1A7500D30076B105 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Base32 (tvOS)";
+			productName = Base32;
+			productReference = C9357BFC1DCD6BED007C1419 /* Base32.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9357C031DCD6BED007C1419 /* Base32Tests (tvOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9357C101DCD6BED007C1419 /* Build configuration list for PBXNativeTarget "Base32Tests (tvOS)" */;
+			buildPhases = (
+				C996EC691A74F2190076B105 /* Sources */,
+				C9357C011DCD6BED007C1419 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9357C071DCD6BED007C1419 /* PBXTargetDependency */,
+			);
+			name = "Base32Tests (tvOS)";
+			productName = Base32Tests;
+			productReference = C9357C041DCD6BED007C1419 /* Base32Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C996EC621A74F2180076B105 /* Base32 (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32 (iOS)" */;
+			buildPhases = (
+				C996EC5E1A74F2180076B105 /* Sources */,
+				C996EC9C1A7500D30076B105 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Base32 (iOS)";
 			productName = Base32;
 			productReference = C996EC631A74F2180076B105 /* Base32.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C996EC6C1A74F2190076B105 /* iOS-Base32Tests */ = {
+		C996EC6C1A74F2190076B105 /* Base32Tests (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "iOS-Base32Tests" */;
+			buildConfigurationList = C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32Tests (iOS)" */;
 			buildPhases = (
 				C996EC691A74F2190076B105 /* Sources */,
 				C996EC6A1A74F2190076B105 /* Frameworks */,
-				C996EC6B1A74F2190076B105 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				C996EC701A74F2190076B105 /* PBXTargetDependency */,
 			);
-			name = "iOS-Base32Tests";
+			name = "Base32Tests (iOS)";
 			productName = Base32Tests;
 			productReference = C996EC6D1A74F2190076B105 /* Base32Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C996EC9E1A7500D30076B105 /* Mac-Base32 */ = {
+		C996EC9E1A7500D30076B105 /* Base32 (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C996ECB21A7500D40076B105 /* Build configuration list for PBXNativeTarget "Mac-Base32" */;
+			buildConfigurationList = C996ECB21A7500D40076B105 /* Build configuration list for PBXNativeTarget "Base32 (macOS)" */;
 			buildPhases = (
-				C996EC9A1A7500D30076B105 /* Sources */,
-				C996EC9B1A7500D30076B105 /* Frameworks */,
+				C996EC5E1A74F2180076B105 /* Sources */,
 				C996EC9C1A7500D30076B105 /* Headers */,
-				C996EC9D1A7500D30076B105 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Mac-Base32";
+			name = "Base32 (macOS)";
 			productName = Base32;
 			productReference = C996EC9F1A7500D30076B105 /* Base32.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C996ECA81A7500D30076B105 /* Mac-Base32Tests */ = {
+		C996ECA81A7500D30076B105 /* Base32Tests (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C996ECB51A7500D40076B105 /* Build configuration list for PBXNativeTarget "Mac-Base32Tests" */;
+			buildConfigurationList = C996ECB51A7500D40076B105 /* Build configuration list for PBXNativeTarget "Base32Tests (macOS)" */;
 			buildPhases = (
-				C996ECA51A7500D30076B105 /* Sources */,
+				C996EC691A74F2190076B105 /* Sources */,
 				C996ECA61A7500D30076B105 /* Frameworks */,
-				C996ECA71A7500D30076B105 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				C996ECAC1A7500D40076B105 /* PBXTargetDependency */,
 			);
-			name = "Mac-Base32Tests";
+			name = "Base32Tests (macOS)";
 			productName = Base32Tests;
 			productReference = C996ECA91A7500D30076B105 /* Base32Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -386,20 +435,39 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MF_;
-				LastUpgradeCheck = 0630;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
+					0DDF90E1158A1A0F00D44611 = {
+						ProvisioningStyle = Manual;
+					};
+					5B39F4831DBD04A400CD2DAB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Manual;
+					};
+					C9357BFB1DCD6BED007C1419 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					C9357C031DCD6BED007C1419 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
 					C996EC621A74F2180076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Manual;
 					};
 					C996EC6C1A74F2190076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Manual;
 					};
 					C996EC9E1A7500D30076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Manual;
 					};
 					C996ECA81A7500D30076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -415,11 +483,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0DDF90E1158A1A0F00D44611 /* Base32Tool */,
-				C996EC621A74F2180076B105 /* iOS-Base32 */,
-				C996EC6C1A74F2190076B105 /* iOS-Base32Tests */,
-				C996EC9E1A7500D30076B105 /* Mac-Base32 */,
-				C996ECA81A7500D30076B105 /* Mac-Base32Tests */,
+				0DDF90E1158A1A0F00D44611 /* Base32 */,
+				C996EC621A74F2180076B105 /* Base32 (iOS) */,
+				C996EC6C1A74F2190076B105 /* Base32Tests (iOS) */,
+				C996EC9E1A7500D30076B105 /* Base32 (macOS) */,
+				C996ECA81A7500D30076B105 /* Base32Tests (macOS) */,
+				C9357BFB1DCD6BED007C1419 /* Base32 (tvOS) */,
+				C9357C031DCD6BED007C1419 /* Base32Tests (tvOS) */,
+				5B39F4831DBD04A400CD2DAB /* Base32 (watchOS) */,
 			);
 		};
 /* End PBXProject section */
@@ -432,34 +503,6 @@
 				0DDF90F1158A1A0F00D44611 /* InfoPlist.strings in Resources */,
 				0DDF90F7158A1A0F00D44611 /* Credits.rtf in Resources */,
 				0DDF90FD158A1A1000D44611 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996EC611A74F2180076B105 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996EC6B1A74F2190076B105 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996EC9D1A7500D30076B105 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996ECA71A7500D30076B105 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +522,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C996EC7C1A74F2C80076B105 /* MF_Base32Additions.m in Sources */,
+				0DDF910A158A1E2800D44611 /* MF_Base32Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,38 +534,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C996EC9A1A7500D30076B105 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C996ECB91A7503860076B105 /* MF_Base32Additions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C996ECA51A7500D30076B105 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C996ECB81A75036C0076B105 /* Base32Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C9357C071DCD6BED007C1419 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C9357BFB1DCD6BED007C1419 /* Base32 (tvOS) */;
+			targetProxy = C9357C061DCD6BED007C1419 /* PBXContainerItemProxy */;
+		};
 		C969A5711A750B19004FE0F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C996EC9E1A7500D30076B105 /* Mac-Base32 */;
+			target = C996EC9E1A7500D30076B105 /* Base32 (macOS) */;
 			targetProxy = C969A5701A750B19004FE0F7 /* PBXContainerItemProxy */;
 		};
 		C996EC701A74F2190076B105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C996EC621A74F2180076B105 /* iOS-Base32 */;
+			target = C996EC621A74F2180076B105 /* Base32 (iOS) */;
 			targetProxy = C996EC6F1A74F2190076B105 /* PBXContainerItemProxy */;
 		};
 		C996ECAC1A7500D40076B105 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C996EC9E1A7500D30076B105 /* Mac-Base32 */;
+			target = C996EC9E1A7500D30076B105 /* Base32 (macOS) */;
 			targetProxy = C996ECAB1A7500D40076B105 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -557,24 +589,15 @@
 /* Begin XCBuildConfiguration section */
 		0DDF90FE158A1A1000D44611 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC821A74FA390076B105 /* Debug.xcconfig */;
+			baseConfigurationReference = C9357C1C1DCD7BE4007C1419 /* Project-Debug.xcconfig */;
 			buildSettings = {
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
 		0DDF90FF158A1A1000D44611 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC841A74FA390076B105 /* Release.xcconfig */;
+			baseConfigurationReference = C9357C1D1DCD7BFF007C1419 /* Project-Release.xcconfig */;
 			buildSettings = {
-				GCC_NO_COMMON_BLOCKS = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -584,6 +607,7 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -595,104 +619,107 @@
 			buildSettings = {
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
+		5B39F4891DBD04A400CD2DAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		5B39F48A1DBD04A400CD2DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99ECD5F1DCC2E0100A1BF3C /* Base32-watchOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C9357C0E1DCD6BED007C1419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9357C131DCD6F43007C1419 /* Base32-tvOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C9357C0F1DCD6BED007C1419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9357C131DCD6F43007C1419 /* Base32-tvOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		C9357C111DCD6BED007C1419 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9357C141DCD6F5A007C1419 /* Base32Tests-tvOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		C9357C121DCD6BED007C1419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9357C141DCD6F5A007C1419 /* Base32Tests-tvOS.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
 		C996EC771A74F2190076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_NAME = Base32;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 		C996EC781A74F2190076B105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC911A74FA390076B105 /* iOS-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5D1DCC2E0100A1BF3C /* Base32-iOS.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_NAME = Base32;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		C996EC7A1A74F2190076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */;
+			baseConfigurationReference = C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Base32Tests;
 			};
 			name = Debug;
 		};
 		C996EC7B1A74F2190076B105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC8F1A74FA390076B105 /* iOS-Application.xcconfig */;
+			baseConfigurationReference = C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Base32Tests;
 			};
 			name = Release;
 		};
 		C996ECB31A7500D40076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_NAME = Base32;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 		C996ECB41A7500D40076B105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC971A74FA390076B105 /* Mac-Framework.xcconfig */;
+			baseConfigurationReference = C99ECD5E1DCC2E0100A1BF3C /* Base32-macOS.xcconfig */;
 			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Base32/Info.plist;
-				PRODUCT_NAME = Base32;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 		C996ECB61A7500D40076B105 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC941A74FA390076B105 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Base32Tests;
 			};
 			name = Debug;
 		};
 		C996ECB71A7500D40076B105 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC941A74FA390076B105 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */;
 			buildSettings = {
-				PRODUCT_NAME = Base32Tests;
 			};
 			name = Release;
 		};
@@ -708,7 +735,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32Tool" */ = {
+		0DDF9100158A1A1000D44611 /* Build configuration list for PBXNativeTarget "Base32" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0DDF9101158A1A1000D44611 /* Debug */,
@@ -717,7 +744,34 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "iOS-Base32" */ = {
+		5B39F48B1DBD04A400CD2DAB /* Build configuration list for PBXNativeTarget "Base32 (watchOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B39F4891DBD04A400CD2DAB /* Debug */,
+				5B39F48A1DBD04A400CD2DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9357C0D1DCD6BED007C1419 /* Build configuration list for PBXNativeTarget "Base32 (tvOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9357C0E1DCD6BED007C1419 /* Debug */,
+				C9357C0F1DCD6BED007C1419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9357C101DCD6BED007C1419 /* Build configuration list for PBXNativeTarget "Base32Tests (tvOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9357C111DCD6BED007C1419 /* Debug */,
+				C9357C121DCD6BED007C1419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C996EC761A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32 (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C996EC771A74F2190076B105 /* Debug */,
@@ -726,7 +780,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "iOS-Base32Tests" */ = {
+		C996EC791A74F2190076B105 /* Build configuration list for PBXNativeTarget "Base32Tests (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C996EC7A1A74F2190076B105 /* Debug */,
@@ -735,7 +789,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C996ECB21A7500D40076B105 /* Build configuration list for PBXNativeTarget "Mac-Base32" */ = {
+		C996ECB21A7500D40076B105 /* Build configuration list for PBXNativeTarget "Base32 (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C996ECB31A7500D40076B105 /* Debug */,
@@ -744,7 +798,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C996ECB51A7500D40076B105 /* Build configuration list for PBXNativeTarget "Mac-Base32Tests" */ = {
+		C996ECB51A7500D40076B105 /* Build configuration list for PBXNativeTarget "Base32Tests (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C996ECB61A7500D40076B105 /* Debug */,
