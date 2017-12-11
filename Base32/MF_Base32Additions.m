@@ -46,7 +46,7 @@
         NSUInteger encodedBlocks = (encodedLength + 7) >> 3;
         NSUInteger expectedDataLength = encodedBlocks * 5;
 
-        decodedBytes = calloc(expectedDataLength);
+        decodedBytes = calloc(expectedDataLength, 1);
         if( decodedBytes != NULL ) {
 
             unsigned char encodedByte1, encodedByte2, encodedByte3, encodedByte4;
@@ -153,7 +153,7 @@
         if( padding > 0 ) encodedBlocks++;
         NSUInteger encodedLength = encodedBlocks * 8;
 
-        encodingBytes = calloc(encodedLength);
+        encodingBytes = calloc(encodedLength, 1);
         if( encodingBytes != NULL ) {
             NSUInteger rawBytesToProcess = dataLength;
             NSUInteger rawBaseIndex = 0;
