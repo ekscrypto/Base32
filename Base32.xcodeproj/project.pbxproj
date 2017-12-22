@@ -435,7 +435,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MF_;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
 					0DDF90E1158A1A0F00D44611 = {
