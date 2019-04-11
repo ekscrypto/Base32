@@ -83,7 +83,7 @@
 		C996EC671A74F2190076B105 /* Base32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base32.h; sourceTree = "<group>"; };
 		C996EC6D1A74F2190076B105 /* Base32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996EC741A74F2190076B105 /* Base32Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Base32Tests.m; sourceTree = "<group>"; };
-		C996EC941A74FA390076B105 /* Mac-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "Mac-Application.xcconfig"; path = "Carthage/Checkouts/xcconfigs/Mac OS X/Mac-Application.xcconfig"; sourceTree = SOURCE_ROOT; };
+		C996EC941A74FA390076B105 /* macOS-Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = "macOS-Application.xcconfig"; path = "Carthage/Checkouts/xcconfigs/macOS/macOS-Application.xcconfig"; sourceTree = SOURCE_ROOT; };
 		C996EC9F1A7500D30076B105 /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C996ECA91A7500D30076B105 /* Base32Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Base32Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99ECD5B1DCC2DCC00A1BF3C /* Base32.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Base32.xcconfig; sourceTree = "<group>"; };
@@ -275,7 +275,7 @@
 			children = (
 				C9357C191DCD7B6B007C1419 /* Base32 */,
 				C9357C1A1DCD7B73007C1419 /* Base32Tests */,
-				C996EC941A74FA390076B105 /* Mac-Application.xcconfig */,
+				C996EC941A74FA390076B105 /* macOS-Application.xcconfig */,
 			);
 			name = Targets;
 			sourceTree = "<group>";
@@ -473,10 +473,11 @@
 			};
 			buildConfigurationList = 0DDF90DC158A1A0F00D44611 /* Build configuration list for PBXProject "Base32" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0DDF90D7158A1A0F00D44611;
 			productRefGroup = 0DDF90E3158A1A0F00D44611 /* Products */;
@@ -603,7 +604,7 @@
 		};
 		0DDF9101158A1A1000D44611 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC941A74FA390076B105 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = C996EC941A74FA390076B105 /* macOS-Application.xcconfig */;
 			buildSettings = {
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
@@ -615,7 +616,7 @@
 		};
 		0DDF9102158A1A1000D44611 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C996EC941A74FA390076B105 /* Mac-Application.xcconfig */;
+			baseConfigurationReference = C996EC941A74FA390076B105 /* macOS-Application.xcconfig */;
 			buildSettings = {
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
