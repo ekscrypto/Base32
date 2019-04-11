@@ -714,6 +714,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Debug;
 		};
@@ -721,6 +722,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD611DCC2E1F00A1BF3C /* Base32Tests-macOS.xcconfig */;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 			};
 			name = Release;
 		};
