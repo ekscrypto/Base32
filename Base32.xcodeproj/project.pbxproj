@@ -67,7 +67,7 @@
 		0DDF90F6158A1A0F00D44611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		0DDF90F8158A1A0F00D44611 /* MF_AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MF_AppDelegate.h; sourceTree = "<group>"; };
 		0DDF90F9158A1A0F00D44611 /* MF_AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MF_AppDelegate.m; sourceTree = "<group>"; };
-		0DDF90FC158A1A1000D44611 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0DDF90FC158A1A1000D44611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MF_Base32Additions.h; sourceTree = "<group>"; };
 		0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MF_Base32Additions.m; sourceTree = "<group>"; };
 		5B39F4841DBD04A400CD2DAB /* Base32.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Base32.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -473,10 +473,11 @@
 			};
 			buildConfigurationList = 0DDF90DC158A1A0F00D44611 /* Build configuration list for PBXProject "Base32" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 0DDF90D7158A1A0F00D44611;
 			productRefGroup = 0DDF90E3158A1A0F00D44611 /* Products */;
@@ -579,7 +580,7 @@
 		0DDF90FB158A1A1000D44611 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0DDF90FC158A1A1000D44611 /* en */,
+				0DDF90FC158A1A1000D44611 /* Base */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
