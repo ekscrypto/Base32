@@ -1,1 +1,3 @@
-github "jspahrsummers/xcconfigs" ~> 0.11
+# Configuration for Carthage (https://github.com/Carthage/Carthage)
+
+github "jspahrsummers/xcconfigs" ~> 1.0

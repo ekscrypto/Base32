@@ -1,2 +1,2 @@
-#include "../Carthage/Checkouts/xcconfigs/Mac OS X/Mac-Application.xcconfig"
+#include "../Carthage/Checkouts/xcconfigs/macOS/macOS-Application.xcconfig"
 #include "Base32Tests.xcconfig"
