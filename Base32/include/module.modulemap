@@ -1,0 +1,4 @@
+module Base32 {
+    header "../MF_Base32Additions.h"
+    export *
+}
