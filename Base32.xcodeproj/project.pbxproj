@@ -201,14 +201,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		49403AE923D3735700539BD3 /* include */ = {
-			isa = PBXGroup;
-			children = (
-				0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */,
-			);
-			path = include;
-			sourceTree = "<group>";
-		};
 		C9357C191DCD7B6B007C1419 /* Base32 */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				C996EC671A74F2190076B105 /* Base32.h */,
-				49403AE923D3735700539BD3 /* include */,
+				0DDF9108158A1E2800D44611 /* MF_Base32Additions.h */,
 				0DDF9109158A1E2800D44611 /* MF_Base32Additions.m */,
 				C996EC651A74F2190076B105 /* Supporting Files */,
 			);
@@ -447,7 +439,6 @@
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
 					0DDF90E1158A1A0F00D44611 = {
-						DevelopmentTeam = 35MFYY2JY5;
 						ProvisioningStyle = Manual;
 					};
 					5B39F4831DBD04A400CD2DAB = {
@@ -468,7 +459,6 @@
 					};
 					C996EC6C1A74F2190076B105 = {
 						CreatedOnToolsVersion = 6.1.1;
-						DevelopmentTeam = 35MFYY2JY5;
 						ProvisioningStyle = Manual;
 					};
 					C996EC9E1A7500D30076B105 = {
@@ -616,7 +606,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC941A74FA390076B105 /* macOS-Application.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 35MFYY2JY5;
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.$(PRODUCT_NAME:rfc1034identifier)";
@@ -629,7 +618,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC941A74FA390076B105 /* macOS-Application.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 35MFYY2JY5;
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.$(PRODUCT_NAME:rfc1034identifier)";
@@ -698,7 +686,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 35MFYY2JY5;
 			};
 			name = Debug;
 		};
@@ -706,7 +693,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C99ECD601DCC2E1F00A1BF3C /* Base32Tests-iOS.xcconfig */;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 35MFYY2JY5;
 			};
 			name = Release;
 		};
