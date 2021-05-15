@@ -435,7 +435,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = MF_;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = Freshcode;
 				TargetAttributes = {
 					0DDF90E1158A1A0F00D44611 = {
@@ -606,6 +606,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC941A74FA390076B105 /* macOS-Application.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.$(PRODUCT_NAME:rfc1034identifier)";
@@ -618,6 +619,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C996EC941A74FA390076B105 /* macOS-Application.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				GCC_PREFIX_HEADER = "Base32/Base32-Prefix.pch";
 				INFOPLIST_FILE = "Base32/Base32-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.madefresh.$(PRODUCT_NAME:rfc1034identifier)";
