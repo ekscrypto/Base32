@@ -7,7 +7,7 @@
 //
 
 #import "MF_AppDelegate.h"
-#import "MF_Base32Additions.h"
+@import Base32;
 
 @implementation MF_AppDelegate
 
@@ -39,9 +39,9 @@
 {
 #define MaxRandomDataLength 64
     unsigned char bytes[MaxRandomDataLength];
-    long dataLength = random() % 64;
+    long dataLength = arc4random() % 64;
     for(int i = 0; i < dataLength; i++ ) {
-        bytes[i] = random() % 256;
+        bytes[i] = (unsigned char)(arc4random() % 256);
     }
     
     return [[NSData alloc] initWithBytes:bytes length:dataLength];
