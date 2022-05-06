@@ -36,9 +36,3 @@ Requirements
 Implementation
 ----
 * Implemented as per RFC 4648, see http://www.ietf.org/rfc/rfc4648.txt for more details.
-
-
-
-Licensing
-----
-* Public Domain
